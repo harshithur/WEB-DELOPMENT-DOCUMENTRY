@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: p 0;
+}
+.red{
+ background-color: rgb(189, 215, 189);
+}
+#red_blue{
+    background-color: rgb(192, 195, 233);
+}
+div > p{
+    color: bisque;
+    background-color: white;
+}
+a :visited{
+    color: #af5e5e;
+}
+a:hover{
+    background-color: red;
+}
