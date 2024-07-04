@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  /* .box{
+    padding: 10px;
+  } */
+  .box1{
+    background-color: aqua;
+    padding: 10px;
+    margin: 35px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+  .box2{
+    background-color: rgb(73, 61, 175);
+    padding: 10px;
+    margin: 25px;
+    margin: 10px;
+    border: 2px solid black;
+  }
