@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSTER IN HTML</title>
+    <style>
+        * {
+            /* background-color: aqua; */
+        }
+        .outer{
+            border: 2px solid rgb(196, 182, 182);
+            width: 288px;
+            height: 76vh;
+            padding-left: 20px;
+            display: block;
+            position: relative;
+            top: 23px;
+            border-radius: 12px;
+            background-color: white;
+            box-shadow:  16px 15px 11px 5px black;
+            
+        }
+        .outer > .image > img {
+           border-radius: 20px;
+           /* background-color: black; */
+           /* padding: 3px; */
+           padding-left: -2px;
+           padding-top: 8px;
+           width: 270px;
+           display: block;
+          
+        }
+        .content1{
+            border: 2px solid rgb(196, 182, 182);
+            /* height: 12px;
+            width: 7px; */
+            display: inline;
+            display: inline;
+            border-radius: 6px;
+            position: relative;
+            top: 6px;
+            font-style: inherit;
+        }
+        .content2{
+            border: 2px solid rgb(196, 182, 182);
+            /* height: 12px;
+            width: 7px; */
+            display: inline;
+            display: inline;
+            border-radius: 6px;
+            position: relative;
+            top: 6px;
+        }
+        .readmore{
+            /* border: 1px solid rgb(250, 248, 248); */
+            width: 70px;
+            height: 20px;
+            border-radius: 30px;
+            color: #000000;
+            /* height: 12px;
+            width: 7px; */
+            /* display: inline; */
+            position: relative;
+            top: -8px;
+            left: 91px;
+            /* display: inline;
+            border-radius: 6px;*/
+            background-color:#5a5aff;; 
+            box-shadow: 0px 0px 12px 2px blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="image"> <img src="https://cdn.pixabay.com/photo/2016/11/03/03/57/asia-1793406_640.jpg"></div>
+        <nav class="content1">Nature</nav>
+        <nav class="content2">Lake</nav>
+        <p>
+           <p> <b>Fishing.......</b></p>
+           Fishing is the activity of trying to catch fish. Fish are often caught as wildlife from the natural environment (fresh water or marine), but may also be caught from stocked bodies of water such as ponds.
+      </p>  
+        <nav class="readmore">Readmore..</nav>
+    </div>
+</body>
+</html>
